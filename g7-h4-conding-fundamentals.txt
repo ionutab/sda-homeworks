@@ -1,0 +1,35 @@
+Hello,
+
+1. incercati sa implementati mai departe Tic Tac Toe sau un joc similar dupa modelul discutat la curs.
+repository-ul cu ce s-a facut in clasa e aici:
+https://github.com/ionutab/20191109_G7_TicTacToe
+
+Voi vorbi cu Camelia sa facem un online webinar intr-o seara, probabil pe 20, 21 sa fie o varianta ce o dezvolt online alaturi de voi.
+
+2. Desenati pe hartie, o lista simplu inlantuita si una dublu inlantuita si cum decurg operatiile urmatoare:
+• adaugare la final
+• adaugare intre 2 elemente
+• stergerea unui element
+
+https://github.com/ionutab/20191109_ListStructures
+
+3. Pe modelul MyLinkedList, implementati MyDoubleLinkedList in care nodurile au atat .next cat si .prev. Implementati toate operatiile ce le-am implementat la curs in clasa MyLinkedList
+
+4. La curs am implementat stiva pe Lista simplu inlantuita si coada pe Array list. Implementati stiva pe array list si coada pe lista simplu inlantuita, ca sa va fie mai usor desenati inainte pe hartie, structurile, legaturile si operatiile.
+
+5. uitati-va putin peste asta
+https://www.geeksforgeeks.org/largest-sum-contiguous-subarray/
+descrieti in cuvinte ce face acest algoritm
+
+6. descrieti partea de teorie ce am prezentat-o legata de Binary Search Trees in clasa.
+postati pe canalul #random un link ce tine de implementrea in java a acestei structuri ce vi s-a parut explicativ
+
+7. cititi:
+https://en.wikipedia.org/wiki/Conway's_Game_of_Life
+in special pana la partea de Rules.
+apoi:
+https://bitstorm.org/gameoflife/
+jucati-va putin aici.
+daca ar fi sa implementati ceva de genul asta la consola ce structuri ati folosi ?
+
+daca am mai spus ceva la clasa si am omis aici va rog sa imi spuneti

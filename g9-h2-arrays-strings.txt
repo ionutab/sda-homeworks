@@ -1,0 +1,215 @@
+Tema asta tine mai mult de array-uri.
+Cei ce nu ati facut tema 1, va recomand sa rezolvati tema 1 pana sa incepeti asta.
+Parte dintre exercitii au fost rezolvate la clasa.
+Le scriu inca o data aici pentru ca unii oameni au fost absenti dar si pentru unii dintre cei prezenti probabil ca ar fi preferabila inca o trecere prin ele.
+
+ARRAYS
+
+ARR1
+rezolvata in clasa de unii dintre voi
+Cititi de la consola o valoare n.
+Cititi de la consola un array de dimensiune n.
+
+Afisati pe o linie valorile din array.
+Afisati pe o linie valorile impare din array.
+Afisati pe o linie valorile de la pozitiile impare din array.
+Afisati suma elementelor din array.
+Afisati media elementelor din array.
+
+Ca si structura: Recomandabil ar fi sa aveti o singura clasa cu un main si pentru fiecare * sa faceti cate o metoda statica care sa afiseze informatia dorita.
+
+ARR2
+tot rezolvat la clasa
+Realizati un program ce citeste de la tastatura un array si apoi inca un numar minSum.
+
+Afisati elemente din array incepand de la index 0 pana cand suma elementelor afisate pana acum este >= minSum.
+
+exemplu:
+
+input array:
+5, 17, 2, 9, 34, 77, 91, 23, 11, 43
+minSum: 25
+output:
+5, 17, 2, 9 ( suma este 33 )
+
+exemplu:
+input array:
+3, 1, 4, 2, 5
+minSum: 8
+output:
+3, 1, 4 ( suma este 8 )
+
+ARR3
+tot rezolvat si la clasa
+Realizati un program Java ce primeste 2 array-uri de tip int
+Parcurgeti elementele din primul array si afisati indexul primei aparitii a fiecarui element in al doilea array.
+
+exemplu:
+
+int[] a = new int[]{56, 93, 12, 31};
+int[] b = new int[]{17, 37, 12, 31, 48, 12, 93, 5, 63, 68}
+output:
+
+56 nu este prezent
+93 la index 6
+12 la index 2
+31 la index 3
+
+:warning: primul index de accesare a elementelor dintr-un array este 0, iar ultimul este n - 1 , unde n este dimensiunea array-ului.
+
+Cum se schimba rezolvarea problemei daca dorim sa afisam indexul ultimei prezente a elementului in al doilea array ?
+
+ARR4
+Scrieti o metoda ce primeste ca paremetru un array.
+Parcurgeti array-ul si, pentru fiecare element, afisati daca exista o alta aparitie a acestui element in array in dreapta fata de aparitia curenta.
+hint: for cu un for/while in el
+
+exemplu:
+input: 5 6 6 7 3 5 3
+output: 
+5 - true
+6 - true
+6 - false
+7 - false
+3 - true
+5 - false
+3 - false
+
+ARR5
+Scrieti o metoda ce afiseaza un array in doua jumatati.
+Pe prima linie elementele de la centru spre marginea din stanga. (n/2 -> 0)
+Pe a doua linie elementele de la centru spre marginea din dreapta. (n/2 -> n)
+
+ARR6
+Scrieti o metoda ce primeste ca parametru un array si afiseaza valorile prime din array.
+As prefera daca ati declara algoritmul pentru determinarea daca un numar este prim intr-o metoda separata si sa apelati folosind spre exemplu:
+
+isPrime(a[i])
+
+ARR7
+Scrieti o metoda ce primeste un array si afiseaza diferenta dintre elementele de la indecsi consecutivi.
+
+input:
+3 7 9 2 5 1 6 8
+output:
+-4 -2 7 -3 4 -5 -2
+
+ARR8
+Scrieti o metoda ce primeste un array si afiseaza pe linii diferite sirurile de elemente ce sunt in ordine crescatoare. - nu este necesar sa folositi alte array-uri se face doar dintr-o parcurgere.
+
+input:
+3 7 9 2 5 1 6 8
+output:
+3 7 9
+2 5
+1 6 8
+
+BOMBOANE
+
+:warning: :warning: :warning: Sa va uitati peste generatorul de numere aleatorii de la Tema1 - ultimul punct!
+
+e destul de complex, dar totusi cred ca e bine sa incercati sa il rezolvati:
+La gradinita sunt 10 copii.
+Fiecare copil are un numar pe tricou de la 0 la 9.
+Intr-o zi fiecare copil primeste un numar aleatoriu intre 1 si 5 bomboane.
+Fiecare copil mananca cate o bomboana.
+Apoi, copii incep sa treaca prin fata borcanului de bomboane in ordinea numerelor de pe tricou.
+Daca un copil are mai putin de 15 bomboane, el are dreptul sa ia un numar aleatoriu de bomboane dupa urmatoarea regula:
+
+daca numarul curent de bomboane este par el poate sa ia maxim 3 bomboane.
+// a[i] = a[i] + random.nextInt(3) + 1;
+
+daca numarul curent de bomboane este impar el poate sa ia maxim 2 bomboane.
+// a[i] = a[i] + random.nextInt(2) + 1;
+
+Cand toti copii au macar 15 bomboane turul prin fara borcanului de bomboane se opreste SAU CA SI CUM AS SPUNE Cand nu exista nici un copil care sa aiba mai putin de 15 bomboane turul se opreste.
+
+MATRICI
+
+MATRICI1
+rezolvata partial in clasa de unii dintre voi
+Cititi de la consola o valoare n.
+Creati o matrice de dimensiune [n][n];
+populati fiecare pozitie din matrice cu valoarea generata de urmataorea formula:
+
+m[i][j] = (n * i) + j
+Afisati matricea.
+Afisati elementele de pe diagonala principala
+Afisati elementele de pe diagonala secundara
+
+extra:
+
+Afisati elementele de sub diagonala principala
+Afisati elementele de deasupra diagonalei principale
+
+MATRICI2
+propus in clasa la final.
+Realizati un program ce primeste o matrice patratica ca si input.
+( fie cititi de la consola, fie o definiti voi explicit cu {{1,2,3},{4,5,6,},{7,8,9}}, fie o folositi pe cea de la exercitiul anterior.
+
+Afisati matricea
+Afisati oglinda ei fata de verticala
+Afisati oglinda ei fata de orizontala
+Afisati oglinda ei atat fata de orizontala cat si de verticala
+Afisati transpusa matricei - vedeti ultima poza de pe #exercitii
+
+
+STRING
+
+STR0
+https://www.geeksforgeeks.org/scanner-class-in-java/
+uitati-va putin la exemplele de aici.
+In special ScannerDemo1.
+Ati inteles cum se citeste o valoare de tip String de la consola ?
+
+STR1
+Scrieti un program ce citeste de la consola un mesaj intr-o variabila de tip String si afiseaza apoi pe cate o linie separata fiecare caracter al mesajului.
+Folositi-va de metoda charAt() .
+
+STR2
+Scrieti un program ce citeste de la consola un mesaj intr-o variabila de tip String si afiseaza apoi pe un rand valorile numerice ale caracterelor din mesaj.
+Din nou, va recomand sa va folositi de metoda charAt() precum si de conversia (casting) din char in int.
+
+exemplu:
+input: Hello World
+output: 72 101 108 108 111 32 87 111 114 108 100
+
+STR3
+Scrieti o metoda ce primeste ca si parametru o variabila de tip String si returneaza mesajul in oglinda.
+Din nou, use charAt() - dar si o parcurgere de index de la numar mare (indexul ultimului caracter din mesaj) spre 0 (indexul ultimului caracter din mesaj).
+
+exemplu
+input: Hello World
+output: dlroW olleH:
+
+STR-VOWELS
+Declarati urmatorul array in aplicatia voastra ce contine vocalele din alfabetul englez:
+
+char[] vowels = {'a', 'e', 'i', 'o', 'u'};
+Parcurgeti caracterele unei variabile de tip String si numarati cate dintre acestea sunt vocale.
+
+exemplu: The book is on the table.
+output: 8
+Ce metoda propuneti ca sa va asigurati ca si literele majuscule din mesajul initial vor fi luate in considerare la numaratoare ?
+Daca mesajul contine doar litere se poate sa determinam si numarul de consoane ?
+
+STR-HAPPY-BIRTHDAY
+Declarati in programul vostru urmatorul mesaj:
+
+String message = "Happy Birthday ? !"
+Cititi apoi 3 nume de la consola si construiti, pe rand, pentru fiecare nume in parte mesajul de la multi ani prin inlocuirea numelui in locul simbolui de ? .
+3 metode de care aveti nevoie:
+indexOf()
+substring()
+concat() - bineinteles se poate folosi si +
+
+incepeti prin determinarea indexului simbolului ? , apoi folositi-va de substring pentru a determina partea de inceput si partea de final a mesajului iar apoi folosing + sau concat() construiti un String nou pentru afisare.
+
+example:
+
+Jimmy
+Happy Birthday Jimmy !
+Maria
+Happy Birthday Maria !
+Alex
+Happy Birthday ALex !

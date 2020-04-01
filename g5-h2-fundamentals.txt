@@ -1,0 +1,52 @@
+Creati o clasa cu numele SmallPrintPractice si in metoda main inserati urmatoarea secventa de cod:
+
+int i = 0;
+while ( i < 10){
+	System.out.println(i);
+	i++;
+}
+
+int j = 0;
+while( j < 10) {
+	System.out.print(j);
+	j++;
+}
+System.out.println();
+
+int k1 = 0;
+while(k1 < 10){
+	int sum = 0;
+	int k2 = 0;
+	while(k2 < k1){
+		sum = sum + k2;
+		k2++;
+	}
+	System.out.println("Suma este " + sum);
+	k1++;
+}
+As vrea sa explicati in cuvinte - cat mai tehnice preferabil - diferentele dintre while-ul cu i si cel cu j.
+
+Apoi, as vrea sa imi explicati, tot in cuvinte ce se intampla in cele 2 while-uri din a treia parte.
+
+Vreau sa observati diferentele dintre formele lui System.out.print() si System.out.println().
+
+Apoi, folosind aceasta proprietate a lui System.out.println() de a afisa mesaje mai complexe, creati o clasa MultiplicationTable cu o metoda main si incercati sa afisati tabla inmultirii in formatul:
+
+0 x 0 = 0
+0 x 1 = 0
+0 x 2 = 0
+.
+.
+.
+.
+10 x 1 = 10
+10 x 2 = 20
+10 x 3 = 30
+10 x 10 = 100
+Practic toata tabla inmultirii.
+
+E important sa intelegem ca structurile repetitive while pot sa existe una in alta.
+
+O sa mai discutam despre asta sambata dimineata.
+
+Spor !

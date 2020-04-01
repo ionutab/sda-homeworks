@@ -1,0 +1,129 @@
+ello
+
+Am o mica recomandare in primul rand pentru cei ce simtiti ca nu ati inteles bine lucruri predate in primele zile.
+
+Luati caietul si copiati inca o data ce ati scris acolo - eventual mai frumos, mai bine structurat.
+
+Re-scrierea o sa va ajute sa intelegeti si sa memorati parte din lucruri.
+
+Notati separat cuvintele cheie sau lucrurile ce nu le-ati inteles - mai ales la partea asta de cod - o sa incerc sa caut youtube videos sa va trimit link-uri.
+
+Cei ce nu aveti caiete complete sau nu se intelege, sa nu ati notat tot - luati legatura cu alti colegi, intalniti-va si trageti la xerox.
+
+Apoi.
+
+Pentru cei ce ati lipsit, ce am facut in acest weekend:
+
+In principal am recapitulat algoritmii din primul weekend si i-am scris in cod.
+
+Am prezentat ideea de comentarii in cod, comentarii simple si block comments.
+
+// si /**/
+
+Sambata am introdus pentru prima oara ideea de metoda. Am spus in cate feluri sunt impartite metodele ( functii si proceduri ). Am facut o metoda in care am scris codul ce determina daca un numar este prim sau nu si am incercat sa o apelam pentru 2 cazuri separate.
+
+Am vorbit despre tipuri de date. In special despre tipurile de date intregi si reprezentarile lor. Va recomand sa studiati slideurile la partea asta.
+
+Am dat apoi acel exercitiu cu numere prime - mi-ar fi placut sa mearga putin mai repede - in care am determinat numerele prime pana la m si apoi primele m numere prime.
+
+Am vorbit putin despre System.out.println si System.out.print si am vazut diferenta dintre ele si diferite modalitati de afisare.
+
+Am introdus acel Scanner ce ne ajuta sa citim valori de la consola. ( https://www.youtube.com/watch?v=aNm8DK_1ApU ).
+
+Am vorbit despre conceputl de SCOPE, sau in Limba Romana "spatiu de accesibilitate". E foarte important sa il intelegem pentru ca vom extinde pe ideea asta weekendul urmator. ( pun linkul asta aici pentru ca l-am gasit acum dar o sa fie mai clar dupa weekend3 - https://www.youtube.com/watch?v=jcYQ-w9bKcE )
+
+Am introdus blocul de intructiuni cu for. am vorbit despre sintaxa lui, si anume ca e util si perfect normal sa il folosim cand spatiul de valori prin care vrem sa iteram este clar definit ( https://www.youtube.com/watch?v=z-QgsXkYqjc ).
+
+Dupa jumatatea zilei de Duminica am vorbit despre arrays.
+
+Am vazut ca reprezinta o structura de date ce ne permite stocarea unui sir de valori. Am vazut ca trebuie sa definim dimensiunea lui la inceput si ca elementele se acceseaza prin index. ( https://www.youtube.com/watch?v=L06uGnF4IpY )
+
+Va recomand aici sa va uitati si prin slideuri. Sunt cateva exemple bune.
+
+ok...
+
+Ce va recomand eu in primul rand e sa repetati treptat.
+
+Cei ce nu ati facut tema1, va recomand sa incepeti cu partea cu caietul discutata mai sus. Apoi sa rezolvati tema1. Abia apoi incepeti tema2.
+
+Atentie, incercati ca atunci cand v-ati blocat sa cereti ajutor pe canalele disponibile.
+
+Este preferabil sa va formati putin deprinderea in ceea ce priveste structurile de baza, if, while, for, declararea si intializarea variabilelor si simboluri pentru operatiuni.
+
+Tema2 - de data asta o sa dau putin mai mult.
+
+2.0. Descrieti 5 keyboard shortcuts si cand sunt acestea utile.
+
+2.1. Cititi de la tastatura un numar n si apoi afisati la consola urmatorul pattern (nu e cu arrays):
+
+input:
+5
+output:
+*
+**
+***
+****
+*****
+2.2 Cititi de la tastatura dimensiunea unui array, iar apoi array-ul si afisati-l in ordinea inversa a elementelor.
+
+input:
+5
+56
+74
+13
+22
+94
+array-ul afisat in ordinea crescatoare a indexului elementelor:
+56, 74, 13, 22, 94
+array-ul afisat in ordinea descrescatoare a indexului elementelor:
+94, 22, 13, 74, 56
+2.3 Cititi de la tastatura un array (dimensiune + valori, cum a facut pana acum) si apoi, afisati doar elemetele cu o valore mai mare decat 0.
+
+Daca se poate inlocuiti 0 cu un numar citit tot de la tastatura.
+
+2.4 Realizati un algoritm ce citeste un array de la consola (dimensiune + valori, cum a facut pana acum) si apoi o valoare separata; sa-i spunem int searchedValue si returneaza indexul ei in array-ul citit daca aceasta este prezenta sau -1 daca nu este prezenta.
+
+input:
+5
+34
+35
+36
+37
+38
+
+valoarea cautata:
+35
+1
+
+valoarea cautata:
+84
+-1
+2.5 As vrea totusi sa ne mai jucam putin cu numerele astea prime si palindrome pentru ca sunt foarte bune pentru partea de flow control.
+
+Incercati sa faceti o clasa MyPrimeNumbers cu urmatorele metode:
+
+boolean isPrime(int n)
+void primesUntilN(int n)
+void firstNPrimes(int n)
+main
+In metoda main, cititi un numar si apelati toate celelalte 3 metode cu parametru numarul citit.
+
+Apoi as vrea sa va ganditi putin si la algoritmul ce determina daca un numar este palindrom sau nu. ( aveti aici un exemplu: https://www.javatpoint.com/palindrome-program-in-java )
+
+Acelasi lucru ar fi frumos sa il facem acum si pentru acest algorit o clasa cu metode similare MyPalindromeNumbers:
+
+boolean isPalindrome(int n)
+void palindromesUntilN(int n)
+void firstNPalindromes(int n)
+main
+In metoda main, cititi un numar si apelati toate celelalte 3 metode cu parametru numarul citit.
+
+2.6 Realizati un algoritm ce citeste un array de la consola (dimensiune + valori, cum a facut pana acum).
+
+Scrieti o metoda ce primeste ca si parametru un array si returneaza valoarea minima din array.
+
+Scrieti o metoda ce primeste ca si parametru un array si returneaza valoarea maxima din array.
+
+Scrieti o metoda ce primeste ca si parametru un array si calculeaza media elementelor din array.
+
+Va urez atentie, rabdare si incredere! Ne vedem in weekend.

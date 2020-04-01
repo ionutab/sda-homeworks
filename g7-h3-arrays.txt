@@ -1,0 +1,197 @@
+Hello,
+Am scris destul de multe exercitii pentru o saptamana.
+VA RECOMAND CA INAINTE DE A INCEPE SA REPETATI CE AM FACUT IN CLASA.
+As fi recunoscator daca ar face cineva un rezumat pe canalul de exercitii in cateva puncte la ce subiecte am discutat in acest weekend astfel incat si colegii ce au lipsit sa fie la curent.
+Va rog sa ma contactati pe slack daca aveti nelamuriri sau cand aveti nevoie de ajutor.
+Va recomand sa le luati pas cu pas.
+Multumesc!
+--------------------------------
+Arrays Exercises.
+
+ARR1:
+Scrieti o metoda ce afiseaza valorile dintr-un array folosind while. - stiu ca e simplu dar am vazut ca mai sunt oameni ce trebuie sa mai repete sintaxa asta.
+Sugestie de nume: showWithWhile
+
+ARR-SHOW-REVERSE:
+Afisati elementele unui array de la dreapta spre stanga:
+
+input: 67 234 12 65 24
+output: 24 65 12 234 67
+
+ARR2:
+Pe modelul de la curs cu valoarea maxima dintr-un array si pozitia ei in array.
+Scrieti 2 metode:
+una ce returneaza valoarea minima dintr-un array
+si alta care returneaza pozitia ei. Atentie, array-ul se va parcurge in fiecare metoda in parte.
+Sugestie de nume: showMinValue si showMinValueIndex
+
+ARR3:
+Scrieti o metoda ce primeste ca parametrii 2 array-uri de tip int si returneaza un array cu toate elementele din cele 2 array-uri. Sau mai pe scurt o metoda ce concateneaza 2 array-uri.
+
+exemplu:
+int[] a = {4, 2, 9}
+int[] b = {3, 9, 1, 5}
+
+int[] c = concatArrays(a, b);
+// c ar trebuii sa fie
+// 4 2 9 3 9 1 5
+
+ARR4:
+Scrieti o metoda ce primeste ca paremetru un array.
+Parcurgeti array-ul si, pentru fiecare element, afisati daca exista o alta aparitie a acestui element in array in dreapta fata de aparitia curenta.
+
+exemplu:
+input: 5 6 6 7 3 5 3
+output: 
+5 - true
+6 - true
+6 - false
+7 - false
+3 - true
+5 - false
+3 - false
+
+ARR5:
+Scrieti o metoda ce afiseaza un array in doua jumatati.
+Pe prima linie elementele de la centru spre marginea din stanga. (n/2 -> 0)
+Pe a doua linie elementele de la centru spre marginea din dreapta. (n/2 -> n)
+
+ARR6:
+Scrieti o metoda ce primeste ca parametru un array si afiseaza valorile prime din array.
+As prefera daca ati declara algoritmul pentru determinarea daca un numar este prim intr-o metoda separata si sa apelati folosind spre exemplu:
+
+isPrime(a[i])
+
+ARR7:
+Scrieti o metoda ce primeste un array si afiseaza diferenta dintre elementele de la indecsi consecutivi.
+
+input:
+3 7 9 2 5 1 6 8
+output:
+-4 -2 7 -3 4 -5 -2
+
+ARR8:
+Scrieti o metoda ce primeste un array si afiseaza pe linii diferite sirurile de elemente ce sunt in ordine crescatoare. - nu este necesar sa folositi alte array-uri se face doar dintr-o parcurgere.
+
+input:
+3 7 9 2 5 1 6 8
+output:
+3 7 9
+2 5
+1 6 8
+
+BOMBOANE - e destul de complex, dar totusi cred ca e bine sa incercati sa il rezolvati:
+La gradinita sunt 10 copii.
+Fiecare copil are un numar pe tricou de la 0 la 9.
+Intr-o zi fiecare copil primeste un numar aleatoriu intre 1 si 5 bomboane.
+Fiecare copil mananca cate o bomboana.
+Apoi, copii incep sa treaca prin fata borcanului de bomboane in ordinea numerelor de pe tricou.
+Daca un copil are mai putin de 15 bomboane, el are dreptul sa ia un numar aleatoriu de bomboane dupa urmatoarea regula:
+
+daca numarul curent de bomboane este par el poate sa ia maxim 3 bomboane.
+// a[i] = a[i] + random.nextInt(3) + 1;
+
+daca numarul curent de bomboane este impar el poate sa ia maxim 2 bomboane.
+// a[i] = a[i] + random.nextInt(2) + 1;
+
+Cand toti copii au macar 15 bomboane turul prin fara borcanului de bomboane se opreste SAU CA SI CUM AS SPUNE Cand nu exista nici un copil care sa aiba mai putin de 15 bomboane turul se opreste.
+
+String Exercises:
+uitati-va putin peste asta:
+https://beginnersbook.com/2013/12/java-string-charat-method-example/
+
+STR1:
+Scrieti un program ce citeste de la consola un mesaj intr-o variabila de tip String si afiseaza apoi pe cate o linie separata fiecare caracter al mesajului.
+Folositi-va de metoda charAt() .
+
+STR2:
+Scrieti un program ce citeste de la consola un mesaj intr-o variabila de tip String si afiseaza apoi pe un rand valorile numerice ale caracterelor din mesaj.
+Din nou, va recomand sa va folositi de metoda charAt() precum si de conversia (casting) din char in int.
+
+exemplu:
+input: Hello World
+output: 72 101 108 108 111 32 87 111 114 108 100
+
+STR3:
+Scrieti o metoda ce primeste ca si parametru o variabila de tip String si returneaza mesajul in oglinda.
+Din nou, use charAt() - dar si o parcurgere de index de la numar mare (indexul ultimului caracter din mesaj) spre 0 (indexul ultimului caracter din mesaj).
+
+exemplu
+input: Hello World
+output: dlroW olleH:
+
+STR-VOWELS:
+Declarati urmatorul array in aplicatia voastra ce contine vocalele din alfabetul englez:
+
+char[] vowels = {'a', 'e', 'i', 'o', 'u'};
+Parcurgeti caracterele unei variabile de tip String si numarati cate dintre acestea sunt vocale.
+
+exemplu: The book is on the table.
+output: 8
+Ce metoda propuneti ca sa va asigurati ca si literele majuscule din mesajul initial vor fi luate in considerare la numaratoare ?
+Daca mesajul contine doar litere se poate sa determinam si numarul de consoane ?
+
+STR-HAPPY-BIRTHDAY:
+Declarati in programul vostru urmatorul mesaj:
+
+String message = "Happy Birthday ? !"
+Cititi apoi 3 nume de la consola si construiti, pe rand, pentru fiecare nume in parte mesajul de la multi ani prin inlocuirea numelui in locul simbolui de ? .
+3 metode de care aveti nevoie:
+indexOf()
+substring()
+concat() - bineinteles se poate folosi si +
+
+incepeti prin determinarea indexului simbolului ? , apoi folositi-va de substring pentru a determina partea de inceput si partea de final a mesajului iar apoi folosing + sau concat() construiti un String nou pentru afisare.
+
+example:
+
+Jimmy
+Happy Birthday Jimmy !
+Maria
+Happy Birthday Maria !
+Alex
+Happy Birthday ALex !
+
+STR4:
+https://www.tutorialspoint.com/java/lang/character_isletterordigit.htm
+Faceti exemplul asta.
+Spuneti ce ati inteles din el.
+
+STR5 - umbla legenda ca asa criptau romanii corespondenta :face_with_rolling_eyes::face_with_rolling_eyes::face_with_rolling_eyes::
+Cititi un mesaj de la consola.
+Cititi un numar - deviation .
+
+Ideea e sa incercati sa faceti o deplasare spre dreapta a literelor din mesaj cu un numar de pozitii egal cu numarul deviation citit.
+
+Practic, daca `deviation = 3`.
+a -> d
+b -> e
+c -> f
+d -> g
+.
+.
+.
+.
+x -> a
+y -> b
+z -> c
+
+Scrieti 2 metode:
+una ce cripteaza mesajul -> metoda primeste ca parametrii un String (mesajul) si un int (devierea).
+
+una ce incearca sa decripteaze mesajul -> metoda primeste ca si parametru un String(mesajul) si un int (devierea) si deplaseaza spre stanga.
+
+ℹ: Trebuie sa va uitati putin la limitele superioare si inferioare are caracterelor alfabetice din tabelul ASCII.
+_____
+⚠: Sincer mi se pare putin dificil acum pentru voi acest exercitiu ... daca il rezolva cineva bine, daca nu poate il discutam in clasa.
+
+OOP Exercises:
+
+Pe modelul facut la clasa pentru Circle si Square pentru unii, va rog sa incercati sa mai faceti o clasa pentru un alt tip de obiecte.
+Rectange - atentie 2 dimensiuni (lungime, latime)
+Triangle
+Hexagon - s-ar putea sa fie mai dificil
+Ce vreau sa vad aici e ca diferentiati proprietatile de clasa fata de cele de instanta si un constructor cu parametrii.
+Nu ma intereseaza sa vad 1000 de metode cu tot felul de proprietati geometrice.
+Daca totusi aveti nevoie de functii matematice mai complexe:
+http://tutorials.jenkov.com/java/math-operators-and-math-class.html

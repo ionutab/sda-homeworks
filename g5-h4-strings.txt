@@ -1,0 +1,130 @@
+Simple
+int getNumberOfDigits(int number){}
+Write a java method that reads an integer and shows the number of digits of that integer:
+
+input: 12
+output: 2
+input: 3453
+output: 4
+input: 43573934
+output: 8
+pont: convert that integer into a String and get the length of that String
+
+Loops
+
+Here's a link:
+http://www.ntu.edu.sg/home/ehchua/programming/java/j2a_basicsexercises.html#ExerciseNestedLoop
+
+Write down any exercise from chapter 6.
+
+In the case you try to implement 6.3.:
+
+What happends when n > 10 ?
+Is the table still formatted properly ?
+Use the method getNumberOfDigits above to format the table properly.
+
+:information_source: : I recommend writing as many from these exercises as possible. They are useful for the loops issues some of you have.
+
+Fibonacci
+Read a number n.
+Write 2 methods that print out the Fibonacci sequence bot iteratively and recursively.
+
+Operations
+suggested class name: MyMathematicalOperations
+Write a java class that asks the user to input a mathematical operation in the following format: a operator b and then performs the operation.
+
+Example:
+input: 5 + 8
+output: 13
+input: 12 - 7
+out: 5
+in: 444 / 4
+out: 111
+in: 12 * 3
+out: 36
+in: 27 % 3
+out: 1
+:warning: : use .split() from String please
+
+Strings
+suggested class name: StringDataCounter
+Write a program that reads the following message:
+
+Notre Dame is a very old cathedral in Paris, France. It is one of France's most famous landmarks and many people visit it each year. The cathedral is on a small island on the River Seine. It is the cathedral of the Catholic Archdiocese of Paris, one of 23 archdioceses in France. The cathedral was built during two centuries. It is a very good example of Gothic Architecture in France. At the time it was finished, the cathedral was the biggest such building in Western Europe. Between 1844 and 1864, the building was renovated under the direction of Eugène Viollet-le-Duc, who incorporated elements into the design that the medieval building had not possessed before. The two rose windows which ornate the transept are among the biggest in Europe: each has a diameter of 13m.
+Write 4 methods that do the following:
+
+int countWords(String input) - counts the number of words in this string.
+int countVowels(String input) - counts the number of vowels in this string. (a, e, i, o, u)
+int countSentences(String input) - count the number of sentences in this string. - a sentence is separated by .,?,!
+DIFFICULT : void showProperNouns(String input) - prints out the proper names in this text:
+Example:
+Notre, Dame, Paris, France, France, River, Seine, ... etc.
+:warning: : This last one is not easy, discuss with me before implementing it. (more explanations at the end of this post)
+
+Matrices
+suggested class name: ShowMatrixMirrors
+Write a java class with methods that mirrors a matrix.
+( we did the example on the whiteboard )
+Suggested method names:
+
+int[][] mirrorVertically(int[][] m)
+int[][] mirrorHorrizontally(int[][] m)
+int[][] mirrorBothWays(int[][] m) - use the previous 2 methods to achieve this
+:warning: : each method should return the mirrored matrix
+
+Data Structures
+Puneti proiectul cu DataStructures pe GitHub - cei ce nu l-ati pus.
+Pentru fiecare pachet: queue si stack as vrea sa existe atat o implementare pe LinkedList cat si una pe ArrayList.
+Nu mai tin minte ce implementari am facut la clasa.
+Stiu ca am mentionat si la curs sa implementati stack pe array parca.
+La implementarea de stack pe array trebuie sa faceti shiftarea aia spre stanga despre care vorbeam la clasa, si am implementat-o la stergerea de pe MyArray.
+
+Matrix with Roads
+suggested class name: MatrixRoads
+
+Re-read the part about road matrices I spoke about in class and write down a couple of words about this.
+I'm thinking about the part where I was explaining the possibility to have roads and cost of each road described in a Matrix. Also known as GRAPHS.
+
+Write the following java class:
+
+public class Road {
+double distance;
+double duration;
+}
+Add a constructor in order to force the user to be able to create a Road only with distance and duration already known.
+
+Create a matrice of Road.
+Road[][].
+
+:warning: : take a look at the code here:
+
+PastebinPastebin
+[Java] Road.java  // you can add other public classes to this editor in any order  publ - Pastebin.com
+https://pastebin.com/i/facebook.png
+Add more roads to that matrix.
+:warning: Attention! a road should not be added to indeces like [0][0], [1][1], [2][2] etc.
+:information_source: : the roads are one-way only at the beginning. Meaning that the matrix is not symetrical over it's main diagonal.
+
+Now comes the fun part:
+
+Ask the user to input 2 indeces.
+If there is a road between the 2 indeces show the distance and duration of that road.
+If there is NOT a road between the 2 indeces ask the user for the distance and duration and then create a Road object and set it in the matrix at the corresponding indeces.
+If the indeces are equal, like 0-0, 1-1, 2-2 notify the user that the indeces are invalid.
+
+Ask the user to input a number (1-4) in our case, representing a city:
+For that number (city), print out the cities where you can go to from that city.
+For that number (city), print out the cities that have roads leading to that city.
+
+A couple more useful links:
+https://www.geeksforgeeks.org/switch-statement-in-java/
+This one will be useful for the matematical operations part.
+
+For the DIFFICULT exercise (last one ) in the String section:
+https://www.tutorialspoint.com/java/java_regular_expressions.htm
+tutorialspoint.comtutorialspoint.com
+Java - Regular Expressions - Tutorialspoint
+Java - Regular Expressions - Java provides the java.util.regex package for pattern matching with regular expressions. Java regular expressions are very similar to the Perl programming langu
+That exercise can be solved without this but you have to convert char to int at some point to see if a word starts with a upper case letter or not.
+
+Regular expressions is an entire chapter we will discuss about and do some exercises.

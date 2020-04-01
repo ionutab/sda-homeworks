@@ -1,0 +1,62 @@
+Hello,
+Scriu aici cateva exercitii tema acasa.
+Scopul lor este sa va familiarizati cu declararea de variabile si cu primele structuri de control de executie invatate, if, si while.
+Daca credeti ca este nevoie sa adaug completari la una dintre cerinte va rog sa imi spuneti.
+Va recomand sa rezolvati exercitiile in ordinea in care le-am scris aici.
+Va rog sa ma contactati pe Slack cand aveti nevoie de ajutor.
+Daca am erori in postarea curenta va rog sa mi le semnalati.
+Incerc sa mai adaug azi exercitii aici.
+
+1.
+Realizati un program ce determina maximul dintre 2 numere
+2.
+Realizati un program Java ce calculeaza suma primelor n numere din sirul numerelor naturale.
+3.
+Calculati intr-un program java valoarea N! pentru o valoare n
+4.
+Realizati un program java ce determina CMMDC - cel mai mare divizor comun (in Engleza - GCD = Greatest Common Divisor ) pentru 2 numere.
+5.
+Realizati un program java ce determina daca un numar n este prim sau nu si afiseaza la consola mesajul corespunzator.
+6.
+Realizati un program java ce determina daca un numar n este palindrom sau nu si afiseaza la consola valoarea de adevar sau fals corespunzatoare.
+Vreau sa discutati putin pe canalul #general despre acest exercitiu. Ce pasi credeti voi ca sunt necesari pentru acest algoritm.
+7.
+Realizati un program java ce afiseaza numerele prime din sirul numerelor naturale pana la 1000. Sau, pana la o valoare n citita la consola.
+8.
+Realizati un program java ce afiseaza primele n numere PRIME din sirul numerelor naturale. Cei ce aveti laptop mai slab va recomand sa nu-i dati lui n o valoare mai mare de 20 spre exemplu.
+
+Sa-mi spuneti ce diferenta notam intre rezolvarile problemelor 7 si 8.
+
+9.
+Realizati un program ce calculeaza primele n valori din sirul lui Fibonacci.
+https://en.wikipedia.org/wiki/Fibonacci_number
+10.
+Ceva mai simplu:
+Realizati un proiect Java ce citeste de la tastatura un numar n si apoi afiseaza la consola urmatorul pattern:
+input:
+
+5
+output:
+
+*
+**
+***
+****
+*****
+11.
+Scrieti un program java ce citeste de la consola numere cat timp utilizatorul introduce valori > 0.
+In momentul in care utilizatorul a introdus valoarea 0 afisati suma totala si media numerelor citite.
+
+12.
+Scrieti un program ce afiseaza tabla inmultirii in forma:
+
+1 x 1 = 1
+1 x 2 = 2
+.
+.
+1 x 9 = 9
+
+2 x 1 = 1
+.
+.
+10 x 10 = 100

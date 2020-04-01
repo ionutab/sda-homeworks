@@ -1,0 +1,125 @@
+Hello,
+
+Dupa cum am promis, propun cateva exercitii mai simple cu numere, array-uri si matrici pentru saptamana curenta.
+
+Scopul lor este sa folosim parcurgerile pe siruri de elemente si structurile repetitive de control.
+
+1.
+
+Realizati un proiect Java ce citeste de la tastatura dimensiunea unui array, iar apoi array-ul si il afiseaza in ordinea inversa a elementelor.
+
+tip: utilizati un for ce parcurge array-ul descrescator cu i--
+
+exemplu:
+
+5
+56
+74
+13
+22
+94
+array-ul afisat in ordinea crescatoare a indexului elementelor:
+
+56, 74, 13, 22, 94
+
+array-ul afisat in ordinea descrescatoare a indexului elementelor:
+
+94, 22, 13, 74, 56
+
+2.
+
+Realizati un proiect Java ce citeste de la tastatura un array (dimensiune + valori, cum a facut pana acum) si apoi, afiseaza elemetele cu o valore mai mare decat 0.
+
+3.
+
+Realizati un proiect Java ce primeste 2 array-uri de tip int
+
+Exemplu pentru definirea explicita a unui array de tip int:
+
+int[] a = new int[]{34, 71, 25};
+
+Parcurgeti elementele din primul array si afisati indexul primei aparitii a elementului in al doilea array.
+
+exemplu:
+
+int[] a = new int[]{56, 93, 12, 31};
+int[] b = new int[]{17, 37, 12, 31, 48, 12, 93, 5, 63, 68}
+output:
+
+56 nu este prezent
+93 la index 6
+12 la index 2
+31 la index 3
+primul index de accesare a elementelor dintr-un array este 0, iar ultimul este n - 1 , unde n este dimensunea array-ului.
+
+Cum se schimba rezolvarea problemei daca dorim sa afisam indexul ultimei prezente a elementui in al doilea array ?
+
+4.
+
+Realizati un proiect Java ce citeste de la tastatura un array si afisati numerele din array ce sunt divizibile cu 3.
+
+Similar cu ce am mai facut si la clasa.
+
+5.
+
+Realizati un program Java ce citeste de la tastatura o matrice patratica de dimensiune n.
+
+Afisati matricea in oglinda fata de orizontala si verticala.
+
+exemplu:
+
+3 7 9
+5 8 2
+4 1 6
+oglinda verticala:
+
+9 7 3
+2 8 5
+6 1 4
+oglinda orizontala:
+
+4 1 6
+5 8 2
+3 7 9
+extra: Daca este posibil incercati sa afisati si inversa matricei:
+
+6 1 4
+2 8 5
+9 7 3
+6.
+
+Cititi o matrice patratica.
+
+Realizati un algoritm ce determina daca matricea este simetrica fata de diagonala principala.
+
+Afisati mesaj corespunzator.
+
+1 2 3
+2 1 2
+3 2 1
+matricea este simetrica
+1 2 5
+3 1 2
+3 2 1
+matricea nu este simetrica
+7.
+
+Cititi un array de numere.
+
+Realizati un program ce afiseaza pentru fiecare numar din array daca este prim sau nu.
+
+8.
+
+Cititi un array de dimensiune n de la tastatura.
+
+Cereti utilizatorului apoi sa introduca numere iar pentru fiecare numar citi, adunati valoarea sa la toate elementele din array, pana cand toate elementele array-ului sunt mai mari decat 20.
+
+input:
+5
+3 5 7 11 2
+Introduceti valori:
+5
+8
+6
+output:
+22 24 26 30 21

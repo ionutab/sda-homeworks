@@ -1,0 +1,116 @@
+1.
+afisati pe o singura linie numerele de la 0 la 99
+
+2
+afisati pe o singura linie numerele pare de la 0 la 99
+
+3
+afisati pe o singura linie numerele impare de la 0 la 99
+
+4
+afisati pe o singura linie restul impartirii la 2 a numerelor de la 0 pana la n (n declarat si initializat sau citit de la consola)
+exemplu:
+n = 8
+
+0 1 0 1 0 1 0 1
+
+5
+afisati la consola urmatorul mesaj
+
+# # # # # # #
+ # # # # # # #
+# # # # # # # 
+ # # # # # # #
+# # # # # # # 
+ # # # # # # #
+# # # # # # #  
+hint: sunt 7x7
+
+6
+afisati la consola urmatorul mesaj
+
+#
+##
+###
+####
+#####
+######
+########
+hint: sunt 7 linii.
+
+7
+cititi doua numere de la consola.
+afisati un numar de simboluri egal cu diferenta absoluta dintre ele.
+
+exemplu1:
+5
+9
+####
+
+
+exemplu2:
+12
+4
+########
+
+8
+cititi doua numere de la consola (n si m)
+daca n este mai mare decat m afisati numerele de la m la n crescator
+daca m este mai mare decat n afisati numerele de la m la n descrescator
+
+9
+cititi doua numere de la consola (n si m)
+daca n se imparte la m afisati suma numerelor de la m la n
+daca n nu se imparte la m afisati suma numerelor de la 0 la restul impartirii lui n la m
+
+10
+cititi, pe rand, 3 numere de la consola.
+afisati la final cate dintre ele se impart la 2
+
+11
+cititi, pe rand, 3 numere de la consola.
+la final, afisati media lor - folositi double
+
+12
+cititi numere de la consola pana cand se citeste un numar par
+
+13
+cititi numere de la consola pana cand suma lor este mai mare de 100.
+afisati suma rezultata.
+
+exemplu:
+40
+35
+20
+10
+suma: 105
+
+14
+cititi numere de la consola cat timp produsul lor este mai mic de 100.
+afisati produsul rezultat.
+
+3
+5
+6
+2
+prod: 180
+
+15
+afisati tabla inmultirii folosind for in for
+
+16
+scrieti o metoda ce determina cel mai mare divizor comun dintre 2 numere
+( exemplul pseudocod in "introduction to programming")
+
+17
+pe modelul din clasa Prime2 realizati o implementare similara pentru a determina
+numerele palindrome pana la n
+primele n numerele palindrome
+
+18
+asta e mai mult de curiozitate.
+
+uitati-va putin peste pagina asta:
+https://dzone.com/articles/random-number-generation-in-java
+incercati, intr-un program sa generati 3 numere aleatorii si sa le afisati
+descrieti, ce utilitate ar putea avea pentru voi generarea de numere aleatorii

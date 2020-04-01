@@ -1,0 +1,73 @@
+Hello,
+
+O mica recapitulare:
+
+Pentru definirea unei variabile sintaxa este urmatoarea:
+
+<<data_type>> <<variable_name>>;
+Daca dorim si initializarea variabilei in momentul definirii:
+
+<<data_type>> <<variable_name>> = <<initial_value>>;
+Exemplu:
+
+int a = 5;
+Sintaxa pentru blocul de cod if:
+
+if (<<expresie_logica>>){
+	<<instructiuni daca expresia este adevarata>>;
+} else {
+	<<instructiuni daca expresia este falsa>>;
+}
+Atentie, blocul de cod pentru else este optional.
+
+Sintaxa pentru blocul de cod while:
+
+while(<<expresie_logica>>){
+	<<instructiuni ce se repeta cat timp expresia este adevarata>>;
+}
+Tipuri de date:
+
+pentru reprezentarea numerelor intregi: byte,short,int,long
+
+pentru reprezentarea unei valori logice de adevarat sau fals (true or false) : boolean
+
+Scurtaturi in IntelliJ Idea pentru inserarea automata de blocuri de cod:
+
+sout + tab - genereaza System.out.println(); - pentru afisarea unui mesaj sau valoarea unei variabile la consola.
+
+psvm + tab - genereaza public static void main(String[] args){} - bloc de cod ce delimiteaza punctul de intrare si iesire pentru algoritmul sau programul nostru.
+
+Inca ceva, simboluri logice:
+
+&& = AND
+
+|| = OR
+
+! = NOT
+
+In java, expresia logica a == b este adevarata true atunci cand a si b au valore egala.
+
+Expresia !( a == b) este adevarata atunci cand a si b au valori diferite, insa pentru acest caz exista combinatia de simboluri != ce poate fi folosita in format a != b.
+
+Practic if ( ! (a == b)) o sa fie acelasi lucru cu if ( a != b).
+
+Tema acasa:
+
+Problemele se rezolva folosind declararea si definirea de variabile, precum si structurile if si while.
+
+Va rog sa incercati sa rezolvati probleme in ordinea data.
+
+Scrieti inca o data algoritmii in pseudocod pentru CMMDC si IsPrime pe o foaie de hartie.
+Folosind while, afisati toate numerele pare pana la n.
+Daca avem doua variabile nsi m afisati toate numerele de la 1 la n ce se impart la m.
+Daca luam un numar n incercati sa descrieti un algoritm ce calculeaza suma numerelor pana la n, inclusiv n.
+Pentru un numar n, incercati sa determinati n!. - evident, algoritmul este similar cu cel de la problema 4.
+Va recomand sa faceti in felul urmator, pentru fiecare exercitiu cate o clasa/fisier:
+
+Exercitiul1, Exercitiul2 etc. - e mai greu sa gasim nume adecvate pentru fiecare exercitiu in parte.
+
+Diseara sau maine dimineata incerc sa mai adaug 2, 3 exercitii.
+
+Va rog sa ma contactati pe slack cu intrebari, probleme, sau daca vreo una dintre cerinte este neclara, incerc sa imi dedic timp sa va raspund cat de repede pot.
+
+Atentie si rabdare va urez !

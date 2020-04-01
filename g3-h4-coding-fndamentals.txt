@@ -1,0 +1,98 @@
+Hello,
+
+
+
+M-am gandit putin la ce ar fi bine sa exersati pana in weekendul 8 + 9 Decembrie 2018.
+
+Asa, hai sa reluam putin proiectul cu TicTacToe.
+
+Presupun ca il are toata lumea.
+
+Cei ce nu il aveti va rog sa downlodati varianta mea de aici:
+
+https://github.com/ionutab/SDA3-20181111_TicTacToe
+
+Sau
+
+https://bitbucket.org/ionutab/20181111_tictactoe/overview
+
+Sunt aceleasi surse doar ca pe github ii facusem eu upload mai de mult si pe bitbucket l-am pus cu voi la clasa.
+
+Cine nu are proiectul pus pe un sistem de versionare va rog sa faceti asta.
+
+Primul lucru util ar fi pentru voi sa puneti cate o linie de comentariu inaintea fiecarei linii de cod din proiect.
+
+Preferabil pe codul vostru scris la curs.
+
+As vrea sa cititi codul, si sa incercati sa explicati programul.
+
+Nu e important daca puneti comentarii in romana sau in engleza.
+
+Apoi, ramane valabila tema de data trecuta cu imbunatatiri la TicTacToe. Deci ramane valabila postarea respectiva.
+
+https://java3iasi.slack.com/files/UDPPFENCS/FE2HLULGG/Homework-3-TicTacToe
+
+Cei ce nu ati facut tema asta, s-ar putea sa vi se para mai abordabila dupa ultimele discutii de la clasa.
+
+Ce ar fi grozav sa vad e ca faceti macar parte modificarile propuse de mine la proiectul cu TicTacToe si dati cateva commit-uri si push-uri.
+
+Asta ar fi o parte care are legatura cu tema anterioara.
+
+Hai sa luam acum ce-am facut la clasa pe 25/11/2018 si anume proiectul ala … 20181125_ListStructures.
+
+Ar fi grozav daca l-ati pune pe bitbucket sau github.
+Ramane valabila povestea cu cate o linie de comentariu inaintea fiecarei linii de cod.
+Adaugati o metoda in clasa MyArrayList , setAt(int index, int value). Rolul metodei este sa inlocuiasca valoarea de la un anumit index. Daca indexul este mai mare sau egal cu lungimea curenta ( repet: pentru un array de dimensiune length avem indecsi 0 .. length -1 ). Deci daca index >= length pur si simplu iesiti din metoda fara sa faceti inlocuirea valorii deoarece practic pozitia sau indexul la care incercam sa punem valoare noua nu exista.
+Adaugati o metoda in clasa MyArrayList , boolean contains(int valueWeSearch). Rolul metodei este sa determine daca o anumita valoare (adica valueWeSearch) exista in array-ul nostru. Metoda va returna true daca valoarea exista sau false daca valoarea nu exista.
+Adaugati o metoda in clasa MyArrayList , Integer indexOf(int valueWeSearch). Rolum metodei este sa returneze indexul primei aparitii a valorii trimise ca parametru (adica valueWeSearch) in array-ul nostru de valori, adica values. Daca valoarea nu exista metoda trebuie sa returneze null.
+Adaugati o metoda in clasa MyArrayList , void addAll(int[] valuesToAdd). Rolul metodei este sa adauge toate elementele din array-ul trimis ca parametru valuesToAdd in array-ul nostru intern values.
+Adaugati o metoda in clasa MyArrayList, void remove(int indexToRemove). Scopul metodei este sa elimine din array elementul de la indexul indexToRemove. Tineti minte ca vorbeam duminica pe la15:00 despre shiftarea aia spre stanga a valorilor. Va recomand sa incercati si sa scrieti codul care face operatiunea asta.
+
+Extra special.
+
+Alegeti un joc:
+
+Sudoku https://en.wikipedia.org/wiki/Sudoku
+Dame https://ro.wikipedia.org/wiki/Dame
+Spanzuratoarea - presupun ca nu mai trebuie link aici
+Fazan in 2 jucatori.
+Daca mai stiti voi vreounul astept idei de la voi.
+
+Ca si prim pas ar fi grozav doar sa imi scrieti ce clase va ganditi sa faceti si ce proprietati sa contina. Imi scrieti ori mie pe slack ori pe canalul de exercitii.
+
+Apoi incercam sa vedem ce rol trebuie sa aiba fiecare clasa si cum impartim in metode.
+
+
+Discutati ori cu mine ori intre voi despre ideile voastre.
+
+La final incercati sa scrieti codul jocului.
+
+Vreau sa vad putina initiativa din partea voastra aici.
+
+Regex exercise:
+
+Definiti un array de tip String.
+
+String[] myStringsArray spre exemplu.
+
+Adaugati cateva siruri de caractere in el.
+
+Luati 3 regex-uri la alegere si faceti match pe cuvinte.
+
+Pentru fiecare regex afisati valoarea de true sau false ce o returneaza metoda match.
+
+Nu vreau sa insist prea mult pe regex-uri, daca faceti asta cred ca este suficient.
+
+Git-related recommendations:
+
+Daca vreti sa faceti ceva mai placut/util.
+
+Instalati unul dintre clientii git de aici:
+
+https://git-scm.com/download/gui/windows
+
+Recomand SourceTree sau GitKraken (gitkraken vi l-am aratat eu la curs)
+
+Si deschideti un repository local.
+
+Cautati pe google numele programului si sigur gasiti instructiuni pas cu pas despre cum sa il folositi.

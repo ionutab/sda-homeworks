@@ -1,0 +1,39 @@
+Realizati un program ce citeste de la tastatura un array si apoi inca un numar minSum.
+
+Afisati elemente din array incepand de la index 0 pana cand suma elementelor afisate pana acum este >= minSum.
+
+exemplu:
+
+input array:
+5, 17, 2, 9, 34, 77, 91, 23, 11, 43
+minSum: 25
+output:
+5, 17, 2, 9 ( suma este 33 )
+exemplu:
+input array:
+3, 1, 4, 2, 5
+minSum: 8
+output:
+3, 1, 4 ( suma este 8 )
+
+---
+Realizati un proiect Java ce primeste 2 array-uri de tip int
+Exemplu pentru definirea explicita a unui array de tip int:
+int[] a = new int[]{34, 71, 25};
+
+Parcurgeti elementele din primul array si afisati indexul primei aparitii a fiecarui element in al doilea array.
+
+exemplu:
+
+int[] a = new int[]{56, 93, 12, 31};
+int[] b = new int[]{17, 37, 12, 31, 48, 12, 93, 5, 63, 68}
+output:
+
+56 nu este prezent
+93 la index 6
+12 la index 2
+31 la index 3
+
+:warning: primul index de accesare a elementelor dintr-un array este 0, iar ultimul este n - 1 , unde n este dimensunea array-ului.
+
+Cum se schimba rezolvarea problemei daca dorim sa afisam indexul ultimei prezente a elementui in al doilea array ?

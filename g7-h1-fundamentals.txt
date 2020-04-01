@@ -1,0 +1,78 @@
+Hello,
+
+Va scriu cateva lucruri ce ar fi util sa le faceti ca si tema acasa:
+
+1.
+Am facut la curs maximul dintre 2 numere.
+Va rog sa va uitati pe cod si sa imi spuneti daca aveti nelamuriri sau neintelegeri si sa ma intrebati daca nu merge ceva.
+
+2.
+Am dat ca si tema acasa incercarea de a rezolva maximul dintre 3 numere.
+Exista mai multe variante de rezolvare.
+Ce va recomand eu e sa incercati sa faceti intai pe foaie schema logica, apoi in pseudocod si apoi sa incercati sa treceti in cod exercitiul.
+
+3.
+Am scris urmatorul program:
+
+    int a = 6;
+    int b = 7;
+    int c;
+
+    System.out.println("max of a and b: ");
+    if (a > b) {
+      System.out.println(a);
+    } else {
+      System.out.println(b);
+    }
+
+    if (a % 2 == 0) {
+      System.out.println(a + " is even");
+    } else {
+      System.out.println(a + " is odd");
+    }
+
+    System.out.println("difference a - b:");
+    c = a - b;
+    System.out.println(c);
+
+    if (b < a) {
+      a = a + 1;
+    } else {
+      b = b - 1;
+    }
+
+    boolean areEqual;
+    areEqual = (a == b);
+    System.out.println(areEqual);
+    if (areEqual) {
+      System.out.println("right now, numbers are equal");
+    } else {
+      System.out.println("right now, numbers are NOT equal");
+    }
+
+    System.out.println("sum a + b:");
+    System.out.println(a + b);
+
+    System.out.println("sum a,b,c:");
+    int sumAllThree = a + b + c;
+    System.out.println(sumAllThree);
+
+    if(sumAllThree > 10){
+      if(sumAllThree % 2 == 0){
+        System.out.println("sum is even");
+      } else {
+        System.out.println("sum is odd");
+      }
+    }
+
+a rog sa ii dati copy paste intr-o clasa noua in proiectul vostru si sa rulati programul.
+Apoi, as vrea sa cititi operatiunile ce au loc acolo si sa incercati sa le explicati.
+Fie le explicati intr-un document txt (notepad) sau word sau pe caiet, in ce format preferati voi.
+Daca vreti, va rog sa va uitati peste:
+https://www.w3schools.com/java/java_comments.asp
+Va arata aici cum sa adaugati comentarii in cod.
+O sa va ajute asta sa explicati codul direct in fisierul .java.
+
+Va rog frumos sa ma contactati pe slack daca aveti probleme, nelamuriri sau daca am vreo greseala aici.
+
+Va multumesc si va urez mult spor!

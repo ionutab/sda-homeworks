@@ -1,0 +1,54 @@
+Please read carrefully the text and examples in each link.
+
+1.
+
+What are the String methods we discussed about in class ?
+
+Create a simple Main with a main and do at least one example for each method.
+
+2.
+
+Ask the user to input a String.
+
+Show the reverse of that string.
+
+Lookup:
+
+https://beginnersbook.com/2013/12/java-string-charat-method-example/
+
+https://www.javatpoint.com/java-string-length
+
+3.
+
+Realizati un program java ce citeste de la tastatura o propozitie si inverseaza fiecare cuvant in parte.
+
+Create a java program that reads a sentence and reverses each word separately.
+
+Discuss about what methods would you use to solve this problem.
+
+input: there is a house on a hill
+
+output: ereht si a esuoh no a llih
+
+hint: split
+
+https://examples.javacodegeeks.com/core-java/lang/string/java-string-split-example/
+
+4.
+
+https://dzone.com/articles/random-number-generation-in-java
+
+Use the class `Random` from the java library to generate random numbers.
+
+Create a simple project ( a couple of lines ) that:
+
+generates a random number
+generates a random number between 0 - 49
+generates a random number between 10 - 20
+How did you enforce lower and upper boundaries to the random generated value ?
+
+5.
+
+How would you generate a random string of length 8 containing only lowercase letters ?
+
+Use stuff learned at ex.4
